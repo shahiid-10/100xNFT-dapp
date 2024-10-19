@@ -1,4 +1,4 @@
-export const abi = [
+export default abi = [
   {
     inputs: [],
     stateMutability: "nonpayable",

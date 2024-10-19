@@ -1,6 +1,7 @@
 import Img from "../assets/100xNFT.png";
 import { useWaitForTransactionReceipt, useWriteContract } from "wagmi";
-import { abi } from "../abi";
+// import { abi } from "../abi";
+import abi from "../abi"
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 
 export function MintNFT() {

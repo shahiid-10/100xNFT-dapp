@@ -47,7 +47,7 @@ export function MintNFT() {
             100x NFT for All the <br /> 100x out there!
           </h1>
           <h5 className="font-mono text-2xl md:text-4xl">
-            Week 10 ya 11 web3 assignment
+            Week 11 web3 assignment
           </h5>
           <p className="text-[13px] md:text-lg mb-[1.5rem]">
             1. Mint the NFT in Sepolia Network <br />

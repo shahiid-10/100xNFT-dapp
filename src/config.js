@@ -7,13 +7,13 @@ import { injected } from 'wagmi/connectors'
 export const config = getDefaultConfig({
   appName: 'RainbowKit demo',
   projectId: 'YOUR_PROJECT_ID',
-  chains: [mainnet, sepolia],
+  chains: [ sepolia ],
   connectors: [
     injected(),
     // metaMask(),
   ],
   transports: {
-    [mainnet.id]: http(),
+    // [mainnet.id]: http(),
     [sepolia.id]: http(),
   },
 })
